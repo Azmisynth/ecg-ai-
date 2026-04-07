@@ -6,16 +6,12 @@
 #   pip install torch==2.2.0 --index-url https://download.pytorch.org/whl/cu121
 #   pip install -r requirements.txt
 #
-# Use the PyTorch CPU wheel index when deploying on Streamlit Cloud.
---extra-index-url https://download.pytorch.org/whl/cpu
---index-strategy=unsafe-best-match
-
 # Prefer a compatible importlib-metadata version for Streamlit 1.29.0.
 importlib-metadata<7
 
 wfdb==4.1.2
 neurokit2==0.2.7
-torch==2.11.0+cpu      # use a Python-3.14-compatible CPU build on Streamlit Cloud
+torch==2.11.0          # use a Python-3.14-compatible build on Streamlit Cloud
 pytorch-lightning==2.1.0
 shap==0.46.0           # 0.44.0 has no cp312 wheel; 0.46.0 is earliest compatible
 streamlit==1.29.0
