@@ -1,0 +1,33 @@
+# Downloaded data (recreated at runtime)
+data/ptb-xl/
+data/ptbxl_small/
+data/*.npy
+
+# Trained model (recreated at runtime)
+checkpoints/
+
+# Generated outputs
+explanation.png
+lightning_logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
