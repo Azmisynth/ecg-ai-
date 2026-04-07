@@ -11,7 +11,7 @@
 
 wfdb==4.1.2
 neurokit2==0.2.7
-torch==2.2.0           # 2.1.0 has no cp312 wheel; 2.2.0 is earliest compatible
+torch==2.11.0+cpu      # use a Python-3.14-compatible CPU build on Streamlit Cloud
 pytorch-lightning==2.1.0
 shap==0.46.0           # 0.44.0 has no cp312 wheel; 0.46.0 is earliest compatible
 streamlit==1.29.0
