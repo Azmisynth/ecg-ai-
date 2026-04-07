@@ -1,7 +1,8 @@
 # Downloaded data (recreated at runtime)
 data/ptb-xl/
-data/ptbxl_small/
-data/*.npy
+data/ptbxl_small/records100/
+data/ptbxl_small/*.dat
+data/ptbxl_small/*.hea
 
 # Trained model (recreated at runtime)
 checkpoints/

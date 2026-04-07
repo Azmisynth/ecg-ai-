@@ -5,6 +5,9 @@
 # GPU install (CUDA 12.1):
 #   pip install torch==2.2.0 --index-url https://download.pytorch.org/whl/cu121
 #   pip install -r requirements.txt
+#
+# Use the PyTorch CPU wheel index when deploying on Streamlit Cloud.
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 wfdb==4.1.2
 neurokit2==0.2.7
